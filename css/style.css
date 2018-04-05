@@ -1,0 +1,54 @@
+#movies img {
+  width: 70%;
+  max-width: 250px;
+  margin-bottom: 7px;
+}
+
+#movie img {
+  width: 100%;
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height:240px;
+  }
+}
+
+.jumbotron {
+  /*background-color: #d60724;*/
+  background: linear-gradient(#821524, red, #d60724);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.button {
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #dedfe0;
+}
+
+h2 {
+  color: #f9f9f9;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  font-size: 33px;
+  background: linear-gradient(#868282, #5d5757, #1b1a1a);
+  margin-left: 15px;
+  /*border-radius: 5px 5px 0px 0px;*/
+}
+
+.plot-left {
+  text-align: left;
+}
